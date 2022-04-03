@@ -1,0 +1,86 @@
+body {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  line-height: 1.4;
+  background-color: #efefef;
+}
+
+.navbar {
+  background-color: #c04141;
+}
+
+.navbar h1 {
+  color: blanchedalmond;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 5px;
+  background-color: #c04141;
+}
+
+.footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 1rem;
+  border: solid 2px;
+  border-color: #cdd8e2;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10 px;
+  list-style: none;
+  overflow: auto;
+  text-align: center;
+  background-color: aliceblue;
+  -webkit-box-shadow: 10px 10px 8px #888888;
+          box-shadow: 10px 10px 8px #888888;
+}
+
+.card p {
+  size: 2rem;
+  margin: 15px;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #800040;
+  color: white;
+  border: 1px solid #800040;
+  margin: 0 1rem;
+}
+
+.btn a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #9c1458;
+  border-color: #9c1458;
+}
+/*# sourceMappingURL=estilo.css.map */
